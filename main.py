@@ -8,8 +8,8 @@ this program any number of times produces byte-identical output.
 
 import os
 
-# The poem, as Unicode text. Length is measured in code points (Python 3
-# str length), which is what the bounty counts — not bytes.
+# The poem, as Unicode text. Length is measured in Python 3 string length
+# (Unicode code points), which is what the verification counts — not bytes.
 POEM = (
     "I asked the doorman for the key.\n"
     "He gave it, warm from his chest.\n"
